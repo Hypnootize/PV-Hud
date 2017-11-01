@@ -7,27 +7,6 @@
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
-	"CasualButton"
-	{
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
-		"tooltip" "Play Casual"
-		"subimage"	"glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"command" "play_competitive"
-		"OnlyAtMenu" "1"
-		"tooltip" "Play Competitive"
-		"subimage"	"glyph_practice"
-	}
-	"MvMButton"
-	{
-		"command" "play_mvm"
-		"OnlyAtMenu" "1"
-		"tooltip" "Play MvM"
-		"subimage"	"glyph_coop"
-	}
 	"SettingsButton"
 	{
 		"label"			"Options"
