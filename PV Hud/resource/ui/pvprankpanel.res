@@ -191,6 +191,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -213,6 +214,7 @@
 			if_mini
 			{
 				"visible"	"0"
+				"wide"		"f0"
 			}
 		}
 
