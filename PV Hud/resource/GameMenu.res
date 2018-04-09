@@ -41,12 +41,12 @@
         "subimage"  "glyph_options"
         "tooltip"   "Advanced Options"
     }
-	"ReplayBrowserButton"
+	"ConsoleButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
-		"command" "engine replay_reloadbrowser"
+		"label" ""
+		"command" "engine showconsole"
 		"subimage" "glyph_tv"
-		 "tooltip"   "Replays"
+		"tooltip"   "Toggle Console"
 	}
 	"AchievementsButton"
     {
