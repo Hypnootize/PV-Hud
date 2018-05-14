@@ -17,8 +17,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 
@@ -27,16 +26,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
@@ -48,8 +41,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -70,8 +62,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -81,8 +72,6 @@
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"0"
@@ -93,8 +82,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -117,8 +105,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeBG"
@@ -136,8 +123,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -158,8 +144,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathBG"
@@ -177,8 +162,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SetupLabel"
@@ -199,8 +183,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SetupBG"
@@ -218,8 +201,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -253,5 +235,10 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 }
