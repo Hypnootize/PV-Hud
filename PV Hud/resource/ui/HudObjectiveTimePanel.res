@@ -3,7 +3,7 @@
 
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"34"
 		"ypos"			"9"
@@ -17,32 +17,27 @@
 		
 		if_match
 		{
-			"xpos"			"9999"
+			"xpos"		"9999"
 		}
 	}
 
 	"TimePanelProgressBar"
 	{
-		"ControlName"			"CTFProgressBar"
+		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"9999"
 		"ypos"				"16"
 		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
-		"scaleImage"			"1"
+		"scaleImage"		"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"TimerProgress.InActive"
-		"color_warning"			"TimerProgress.Warning"
-		"percent_warning"		"0.75"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"color_active"		"TimerProgress.Active"
+		"color_inactive"	"TimerProgress.InActive"
+		"color_warning"		"TimerProgress.Warning"
+		"percent_warning"	"0.75"
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -59,18 +54,12 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"16"
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
@@ -78,16 +67,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-		"scaleImage"		"1"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		"scaleImage"	"1"
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"24"
 		"ypos"			"26"
@@ -102,11 +86,6 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"OvertimeBG"
 	{
@@ -120,15 +99,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"24"
 		"ypos"			"26"
@@ -141,15 +115,10 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"
 		"ypos"			"31"
@@ -159,11 +128,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"SetupLabel"
 	{
@@ -180,11 +144,6 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"SetupBG"
 	{
@@ -198,11 +157,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -224,7 +178,7 @@
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"-9999" //offscreen
 		"ypos"			"31"
@@ -234,11 +188,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		
 		if_match
 		{
-			"xpos"			"9999"
+			"xpos"		"9999"
 		}
 	}
 }

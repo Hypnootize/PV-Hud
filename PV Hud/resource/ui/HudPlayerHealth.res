@@ -205,21 +205,6 @@
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatusSlowed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusSlowed"
-		"xpos"			"78"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../vgui/slowed"
-		"fgcolor"		"TanDark"
-	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -614,6 +599,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"78"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
 }

@@ -1,80 +1,7 @@
+#base "../scripts/Crosshairs/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
-	xHair
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHair"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-12"
-		"ypos"			"c-12"
-		"wide"			"23"
-		"tall"			"24"
-
-		"font"			"xHair"
-		"labelText"		"+"
-		"textAlignment"	"center"
-	}
-//######################################################
-//#FOG CROSSHAIRS##(CREDITS TO CHIPPY FROM KNHUD/BXHUD)#
-//######################################################
-//
-    fogCrosshair
-    {
-        "controlname"   "CExLabel"
-        "fieldname" "fogCrosshair"
-        
-        "visible"   "0"
-        "enabled"   "1"
-
-        "xpos"      "c-15"
-        "ypos"      "c-17"
-        "zpos"      "2"
-        
-        "wide"      "30"
-        "tall"      "30"
-
-        "font"      "fogCrosshairSmooth"
-        //
-        // Choose what kind
-        //
-        // "fogCrosshair"         - Pixelated and outlined
-        // "fogCrosshairPlain"    - Pixelated and not outlined
-        // "fogCrosshairSmooth"   - Antialiased, not outlined
-        
-
-        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
-        //
-        // Choose your crosshair
-        // 
-        // Change the "1" to represent the crosshair you want
-
-        "textAlignment" "center"
-        
-        "fgcolor"   "244 244 244 255"
-    }
-	xHairCircle
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHairCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-
-		"font"			"xHairCircle"
-		"labelText"		"o"
-		"textAlignment"	"center"
-
-		"fgcolor"		"255 255 255 192"
-	}
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -888,6 +815,7 @@
 		"enabled"		"1"
 		"xpos"			"c-150"
 		"ypos"			"r158"
+		"zpos"			"20"
 		"wide"			"300"
 		"tall"			"215"
 	}
@@ -900,6 +828,7 @@
 		"enabled"		"1"
 		"xpos"			"c-150"
 		"ypos"			"r150"
+		"zpos"			"20"
 		"wide"			"300"
 		"tall"			"150"
 	}
@@ -911,6 +840,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"255"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -922,8 +852,8 @@
 		"enabled"		"1"
 		"xpos"			"r170"
 		"ypos"			"330"
-		"wide"			"170"
-		"tall"			"70"
+		"wide"			"0"
+		"tall"			"0"
 	}
 
 	FreezePanel
@@ -1006,6 +936,7 @@
 		"enabled" 		"1"
 		"xpos"			"r248"
 		"ypos"			"r175"
+		"zpos"			"20"
 		"wide"			"248"
 		"tall"			"93"
 		"PaintBackgroundType"	"0"
@@ -1018,6 +949,7 @@
 		"enabled" 		"1"
 		"xpos"			"r248"
 		"ypos"			"r175"
+		"zpos"			"20"
 		"wide"			"248"
 		"tall"			"93"
 		"PaintBackgroundType"	"0"
@@ -1030,6 +962,7 @@
 		"enabled" 		"1"
 		"xpos"			"r124"
 		"ypos"			"r175"
+		"zpos"			"20"
 		"wide"			"248"
 		"tall"			"93"
 		"PaintBackgroundType"	"0"
@@ -1042,6 +975,7 @@
 		"enabled" 		"1"
 		"xpos"			"r120"
 		"ypos"			"r240"
+		"zpos"			"20"
 		"wide"			"120"
 		"tall"			"180"
 		"PaintBackgroundType"	"0"
@@ -1079,7 +1013,7 @@
 		"enabled"		"1"
 		"xpos"			"c-60"
 		"ypos"			"20"
-		"wide"			"320"
+		"wide"			"0"
 		"tall"			"0"
 	}
 
@@ -1101,8 +1035,8 @@
 		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"75"
-		"wide"			"320"
-		"tall"			"150"
+		"wide"			"0"
+		"tall"			"0"
 	}
 
 	HudArenaCapPointCountdown
@@ -1403,6 +1337,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-45"
+		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"90"
 		"PaintBackgroundType"	"0"
