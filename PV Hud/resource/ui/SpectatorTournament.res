@@ -45,16 +45,6 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-
-				if_mvm
-				{
-//					"xpos"				"0"
-//					"ypos"				"25"
-//					"wide"				"55"
-//					"textAlignment"		"center"
-//					"font"				"PlayerPanelPlayerName"
-				}
 			}
 
 			"classimage"
@@ -70,15 +60,6 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"
-
-				if_mvm
-				{
-//					"xpos"			"5"
-//					"ypos"			"4"
-//					"wide"			"20"
-//					"tall"			"20"
-//					"image"			"../vgui/hud_connecting"
-				}
 			}
 
 			"classimagebg"
@@ -94,11 +75,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-
-				if_mvm
-				{
-//					"visible"		"1"
-				}
 			}
 
 			"HealthIcon"
@@ -139,11 +115,6 @@
 
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-
-				if_mvm
-				{
-//					"visible"		"1"
-				}
 			}
 
 			"ReadyImage"
@@ -161,11 +132,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 
 			"respawntime"
@@ -226,22 +192,6 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-
-			if_mvm
-			{
-//				"wide"		"55"
-//				"tall"		"35"
-			}
-		}
-
-		if_mvm
-		{
-//			"xpos"					"190"
-//			"ypos"					"80"
-//			"wide"					"82"
-//			"tall"					"180"
-//
-//			"team1_player_delta_x"			"18"
 		}
 	}
 
