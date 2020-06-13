@@ -419,7 +419,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-65"
+		"xpos"			"c-58"
 		"ypos"			"131"
 		"zpos"			"16"
 		"wide"			"20"
@@ -526,7 +526,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CoachPlayersButton"
-		"xpos"			"c-85"
+		"xpos"			"c-78"
 		"ypos"			"158"
 		"zpos"			"16"
 		"wide"			"20"
@@ -588,7 +588,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AdvancedOptionsButton"
-		"xpos"			"c-65"
+		"xpos"			"c-58"
 		"ypos"			"158"
 		"zpos"			"16"
 		"wide"			"20"
@@ -694,7 +694,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
-		"xpos"			"c-105"
+		"xpos"			"c-98"
 		"ypos"			"184"
 		"zpos"			"16"
 		"wide"			"20"
@@ -755,7 +755,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
-		"xpos"			"c-85"
+		"xpos"			"c-78"
 		"ypos"			"184"
 		"zpos"			"16"
 		"wide"			"20"
@@ -817,7 +817,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"c-65"
+		"xpos"			"c-58"
 		"ypos"			"184"
 		"zpos"			"16"
 		"wide"			"20"
@@ -1136,7 +1136,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-105"
+		"xpos"			"c-98"
 		"ypos"			"131"
 		"zpos"			"16"
 		"wide"			"26"
@@ -1197,7 +1197,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-85"
+		"xpos"			"c-78"
 		"ypos"			"131"
 		"zpos"			"16"
 		"wide"			"26"
@@ -1258,7 +1258,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-65"
+		"xpos"			"c-58"
 		"ypos"			"131"
 		"zpos"			"16"
 		"wide"			"26"

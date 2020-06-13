@@ -19,17 +19,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
-		"xpos"			"c-199"
-		"ypos"			"85"
+		"xpos"			"c-160"
+		"ypos"			"68"
 		"zpos"			"1"
-		"wide"			"225"
+		"wide"			"320"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"font"			"DefaultLargerShadow"
 		"fgcolor"		"White"
 	}
@@ -38,11 +40,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-199"
-		"ypos"			"105"
+		"xpos"			"c-160"
+		"ypos"			"c-145"
 		"zpos"			"1"
-		"wide"			"225"
-		"tall"			"24"
+		"wide"			"320"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -50,7 +52,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"DefaultLargeShadow"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}	
 	
 	"MapInfoText"
@@ -58,12 +60,11 @@
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"DefaultShadow"
-		"xpos"			"c-199"
-		"ypos"			"150"
-		"zpos"			"3"
-		"wide"			"195"
-		"tall"			"200"
-		"tall_lodef"	"200"
+		"xpos"			"c-160"
+		"ypos"			"c-125"
+		"zpos"			"1"
+		"wide"			"160"
+		"tall"			"230"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -77,11 +78,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c-5"
-		"ypos"			"65"
+		"xpos"			"c5"
+		"ypos"			"c-120"
 		"zpos"			"2"
-		"wide"			"275"
-		"tall"			"275"
+		"wide"			"200"
+		"tall"			"200"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
@@ -92,8 +93,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"c125"
-		"ypos"			"c114"
+		"xpos"			"c80"
+		"ypos"			"c110"
 		"zpos"			"6"
 		"wide"			"80"
 		"tall"			"16"
@@ -116,7 +117,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"c-40"
-		"ypos"			"c114"
+		"ypos"			"c110"
 		"zpos"			"6"
 		"wide"			"80"
 		"tall"			"16"
@@ -138,8 +139,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"c-205"
-		"ypos"			"c114"
+		"xpos"			"c-160"
+		"ypos"			"c110"
 		"zpos"			"6"
 		"wide"			"80"
 		"tall"			"16"
@@ -162,7 +163,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"0" //"f0"
 		"tall"			"0" //"480"
 		"autoResize"	"0"
@@ -170,7 +171,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -179,33 +180,31 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
-	}					
+	}
 
 	"MenuBG2"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"MenuBG2"
-		"xpos"			"c-215"
-		"ypos"			"c-180"
+		"xpos"			"c-170"
+		"ypos"			"c-150"
 		"zpos"			"-1"
-		"wide"			"430"
-		"tall"	 		"320"
+		"wide"			"340"
+		"tall"	 		"286"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"8"
 		"draw_corner_height" 	"8"
-	}	
-	
+	}
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -217,7 +216,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 88"
+		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 }

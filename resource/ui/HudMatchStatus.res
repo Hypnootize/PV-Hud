@@ -198,25 +198,25 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
+		"xpos"			"9999" //cs-0.5
 		"ypos"			"-2"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		
 	}
-	
+
 	"BGFrame"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
+		"xpos"				"9999" //cs-0.5
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
+		"wide"				"365"
+		"tall"				"28"
+		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
@@ -287,12 +287,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DefaultLargerShadow"
 		
-		if_match
-		{
-			"ypos"				"-5"
-			"zpos"				"5"
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -330,11 +324,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-63"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c63"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -405,10 +399,10 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"18"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"3"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -425,10 +419,10 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"18"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"3"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -496,7 +490,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"DefaultShadow"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -562,7 +556,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
+				"xpos"			"9999"
 				"zpos"			"1"
 				"wide"			"o1.2"
 				"tall"			"p0.15"

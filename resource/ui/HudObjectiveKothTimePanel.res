@@ -1,19 +1,10 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
-
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
+		"xpos"				"3"
 		"ypos"				"-14"
 		"zpos"				"2"
 		"wide"				"100"
@@ -27,12 +18,6 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DefaultLargeShadow"
-		
-		if_match
-		{
-			"xpos"				"16"
-			"ypos"				"-4"
-		}
 		
 		"TimePanelValue"
 		{
@@ -49,11 +34,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"font"		"HudFontSmall"
-			}
 		}	
 	}
 
@@ -76,12 +56,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DefaultLargeShadow"
 		
-		if_match
-		{
-			"xpos"				"53"
-			"ypos"				"-4"
-		}
-		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -97,11 +71,6 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"font"		"HudFontSmall"
-			}
 		}	
 	}
 	

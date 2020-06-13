@@ -20,12 +20,7 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
-		
-		if_comp
-		{
-			"ypos"		"35"
-		}
+		"draw_corner_height" 	"7"
 	}
 
 	"StopWatchImageCaptureTime"
@@ -43,11 +38,6 @@
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		
-		if_comp
-		{
-			"ypos"		"40"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -61,11 +51,6 @@
 		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
-		
-		if_comp
-		{
-			"ypos"			"35"
-		}
 
 		"TimePanelValue"
 		{
@@ -107,11 +92,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_comp
-		{
-			"ypos"		"32"
-		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -130,11 +110,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		
-		if_comp
-		{
-			"ypos"		"35"
-		}
 	}
 
 	"StopWatchLabel"
@@ -154,11 +129,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
-		
-		if_comp
-		{
-			"ypos"		"35"
-		}
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -181,12 +151,7 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
-		
-		if_comp
-		{
-			"wide"		"0"
-		}
+		"draw_corner_height" 	"7"
 	}
 
 
@@ -205,10 +170,5 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		
-		if_comp
-		{
-			"wide"		"0"
-		}
 	}
 }

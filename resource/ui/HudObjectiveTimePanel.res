@@ -1,6 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {
-
 	"TimePanelBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -14,11 +13,6 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"	"1"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}
 
 	"TimePanelProgressBar"
@@ -189,10 +183,5 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"	"1"
-		
-		if_match
-		{
-			"xpos"		"9999"
-		}
 	}
 }

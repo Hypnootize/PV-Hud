@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/crosshairs.res"
+#base "../scripts/Crosshairs/HudLayout_Crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -45,7 +45,7 @@
 		"wide"	"200"
 		"tall"	"160"
 
-		"blue_active_xpos"			"34"
+		"blue_active_xpos"			"36"
 
 		"red_active_xpos"			"100"
 	}
@@ -449,7 +449,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -457,7 +457,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "13"
 		"LineSpacing"	  "-1"
-		"CornerRadius"	  "5" //"3"
+		"CornerRadius"	  "4" //"3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
 		"TextFont"		"Default" //"ChatFont"
