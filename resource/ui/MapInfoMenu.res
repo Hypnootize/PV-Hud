@@ -88,11 +88,11 @@
 		"image"			""
 		"scaleImage"	"1"		
 	}
-
-	"MapInfoContinue" [$WIN32]
+	
+	"ok"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
+		"fieldName"		"ok"
 		"xpos"			"c80"
 		"ypos"			"c110"
 		"zpos"			"6"
@@ -102,7 +102,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -218,5 +218,13 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
+	}
+	
+	
+	"MapInfoContinue" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
 	}
 }
