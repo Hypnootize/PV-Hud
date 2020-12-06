@@ -813,11 +813,11 @@
 		"fieldName"		"WinPanel"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-150"
-		"ypos"			"r158"
+		"xpos"			"cs-0.5"
+		"ypos"			"r130"
 		"zpos"			"20"
-		"wide"			"300"
-		"tall"			"215"
+		"wide"			"200"
+		"tall"			"130"
 	}
 
 
