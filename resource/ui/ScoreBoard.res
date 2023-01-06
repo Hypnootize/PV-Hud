@@ -367,7 +367,7 @@
 		"enabled"		"1"
         if_mvm
         {
-//            "ypos"  "0"
+            "visible"  "0"
         }
 	}
 	"ServerTimeLeftBG"
@@ -393,7 +393,7 @@
 		"fgcolor"		"SuperBlack"
         if_mvm
         {
-//            "ypos"  "0"
+            "visible"  "0"
         }
 	}
 
@@ -1503,7 +1503,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"10"
+		"xpos"				"c-320"
 		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
